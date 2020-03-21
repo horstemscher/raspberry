@@ -2,7 +2,7 @@
 #
 # pir.py
 #
-# python script für die Benutzung des Bewegungssensors
+# python script fuer die Benutzung des Bewegungssensors
 #
 # Quelle: https://tutorials-raspberrypi.de/raspberry-pi-bewegungsmelder-sensor-pir/
 # letzer Aufruf: 21.03.2020
