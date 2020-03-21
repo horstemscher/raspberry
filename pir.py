@@ -8,7 +8,7 @@
 # letzer Aufruf: 21.03.2020
 #
 # ################################################################
-
+#
 import RPi.GPIO as GPIO
 import time
  
