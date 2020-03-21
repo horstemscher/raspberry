@@ -2,6 +2,8 @@
 Scripte für den Raspi
 
 
-*** pir.py ***
+pir.py
+------
+
 Kleines Testscript fuer den IR-Bewegungssensor
 
