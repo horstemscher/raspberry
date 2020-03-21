@@ -29,7 +29,7 @@ try:
   
     GPIO.output(LED_PIN, GPIO.HIGH)
     print('Starten ...')
-    sleep(1)
+    time.sleep(1)
     GPIO.output(LED_PIN, GPIO.LOW)
     
     while True:
