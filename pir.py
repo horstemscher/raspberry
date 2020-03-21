@@ -34,6 +34,7 @@ try:
     
     while True:
         time.sleep(100)
+        GPIO.output(LED_PIN, GPIO.LOW)
 except KeyboardInterrupt:
     print "Beende..."
 GPIO.cleanup()
