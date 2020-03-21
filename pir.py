@@ -11,11 +11,13 @@
 #
 import RPi.GPIO as GPIO
 import time
- 
+
+LED_PIN = 22
 SENSOR_PIN = 23
  
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(SENSOR_PIN, GPIO.IN)
+GPIO.setup(LED_PIN, GPIO.OUT)
  
 def mein_callback(channel):
     # Hier kann alternativ eine Anwendung/Befehl etc. gestartet werden.
