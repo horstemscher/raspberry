@@ -21,16 +21,16 @@ GPIO.setup(LED_PIN, GPIO.OUT)
  
 def mein_callback(channel):
     # Hier kann alternativ eine Anwendung/Befehl etc. gestartet werden.
-    GPIO.output(LED_PIN, HIGH)
+    GPIO.output(LED_PIN, GPIO.HIGH)
     print('Es gab eine Bewegung!')
  
 try:
     GPIO.add_event_detect(SENSOR_PIN , GPIO.RISING, callback=mein_callback)
   
-    GPIO.output(LED_PIN, HIGH)
+    GPIO.output(LED_PIN, GPIO.HIGH)
     print('Starten ...')
     sleep(1)
-    GPIO.output(LED_PIN, LOW)
+    GPIO.output(LED_PIN, GPIO.LOW)
     
     while True:
         time.sleep(100)
